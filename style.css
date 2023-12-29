@@ -103,19 +103,19 @@
   color: var(--colorLight2);
   /* background-image: linear-gradient(160deg, #091921 0%, #032042 100%); */
   background-image: linear-gradient(
-    to right top,
-    #00577c,
-    #044f74,
-    #08466c,
-    #0b3e64,
-    #0d365b,
-    #0d385d,
-    #0e395e,
-    #0e3b60,
-    #0c476d,
-    #09537a,
-    #046086,
-    #006d92
+    to left top,
+    #032c3a,
+    #002f41,
+    #003148,
+    #01344f,
+    #073656,
+    #043756,
+    #023755,
+    #003855,
+    #00374c,
+    #003441,
+    #003136,
+    #032e2c
   );
 }
 
