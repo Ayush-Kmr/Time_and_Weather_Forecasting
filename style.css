@@ -99,9 +99,24 @@
 /* =============== */
 .wrapper {
   width: 100vw;
-  height: 140vh;
+  height: 100vh;
   color: var(--colorLight2);
-  background-image: linear-gradient(160deg, #091921 0%, #032042 100%);
+  /* background-image: linear-gradient(160deg, #091921 0%, #032042 100%); */
+  background-image: linear-gradient(
+    to right top,
+    #00577c,
+    #044f74,
+    #08466c,
+    #0b3e64,
+    #0d365b,
+    #0d385d,
+    #0e395e,
+    #0e3b60,
+    #0c476d,
+    #09537a,
+    #046086,
+    #006d92
+  );
 }
 
 h1 {
@@ -114,7 +129,7 @@ h1 {
   width: 90%;
   max-width: 550px;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -132,7 +147,7 @@ h1 {
 }
 
 .weather-container {
-  margin-block: 4rem;
+  margin-block: 2rem;
 }
 
 .btn {
@@ -144,7 +159,7 @@ h1 {
   cursor: pointer;
   padding: 10px 30px;
 }
-.hide{
+.hide {
   display: none;
 }
 
@@ -194,6 +209,8 @@ h1 {
 
 .user-info-container.active {
   display: flex;
+  line-height: 18px;
+  margin-top: -15px;
 }
 
 .name {
@@ -308,8 +325,8 @@ h1 {
 
 @media screen and (max-width: 375px) {
   .wrapper {
+    height: 100vh;
     width: 100vw;
-    height: 140vh;
     color: var(--colorDark1);
   }
   .parameter-container {
