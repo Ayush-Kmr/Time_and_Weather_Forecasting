@@ -101,7 +101,6 @@
   width: 100vw;
   height: 100vh;
   color: var(--colorLight2);
-  /* background-image: linear-gradient(160deg, #091921 0%, #032042 100%); */
   background-image: linear-gradient(
     to left top,
     #032c3a,
@@ -323,7 +322,7 @@ h1 {
   margin-bottom: 1px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 395px) {
   .wrapper {
     height: 100vh;
     width: 100vw;
@@ -334,11 +333,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
   }
 
   .parameter {
     width: 50%;
+  }
+  .parameter p:first-of-type {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 }
