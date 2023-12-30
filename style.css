@@ -343,4 +343,17 @@ h1 {
     font-weight: 600;
     text-transform: uppercase;
   }
+  .tab-container {
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .grant-location-container.active {
+    display: flex;
+    margin-top: 5rem;
+  }
 }
